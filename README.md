@@ -1,0 +1,22 @@
+Problem Statement – Fantasy Sports Clustering Analysis
+📘 Context:
+Fantasy sports platforms allow users to create virtual teams composed of real-life professional athletes, earning points based on the players' actual game performance. Participants aim to build the most effective team within a limited budget to maximize their fantasy points and compete over a season or league. These platforms often involve real money, with rewards such as cash prizes or free matchday tickets.
+The fantasy sports industry has grown significantly in recent years, reaching a valuation of $18.6 billion in 2019. Football (soccer) led the market with over 8 million users globally and continues to dominate. This growth is largely driven by increasing smartphone usage and the global reach of fantasy sports apps. By 2027, the market is projected to grow to $48.6 billion, fueled by digital engagement and global participation.
+🎯 Objective:
+OnSports, a global fantasy sports provider, hosts leagues for various sports and has seen rapid user growth over the past five years. Ahead of the upcoming English Premier League season, they want to set initial prices for players based on past performance. For this, they’ve collected player-level data from the previous season and hired you, a data scientist, to conduct a clustering analysis. The goal is to group players based on similar performance profiles to assess their potential and assign fair starting prices for the new season.
+📊 Data Description:
+The dataset contains player performance metrics from the previous season, including:
+- Player_Name: Player’s full name
+- Club: Team the player belongs to
+- Position: On-field position
+- Goals_Scored: Total goals in the season
+- Assists: Total assists provided
+- Total_Points: Fantasy points accumulated
+- Minutes: Total minutes played
+- Goals_Conceded: Goals allowed while on the field
+- Creativity: Measure of the player’s ability to create goal-scoring chances
+- Influence: Impact on the match outcome, both direct and indirect
+- Threat: Likelihood of scoring goals
+- Bonus: Additional points earned for top match performance
+- Clean_Sheets: Matches without conceding a goal
+This analysis will help OnSports understand key player clusters and strategically assign values for fantasy gameplay in the new season.
